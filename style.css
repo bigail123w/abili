@@ -1,0 +1,35 @@
+/* REDES */
+.redes {
+    margin-bottom: 20px;
+}
+
+.redes a {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.instagram {
+    background-color: #E1306C;
+}
+
+/* BOTÓN FLOTANTE */
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
