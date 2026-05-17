@@ -2,20 +2,65 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
     <title>Abili | Tejidos a Crochet</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- ICONOS -->
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 
 <body>
 
+<!-- ========================================= -->
+<!-- HEADER -->
+<!-- ========================================= -->
+
+<header class="header">
+
+    <div class="logo">
+
+        <img src="img/logo.png"
+            alt="Logo Abili">
+
+    </div>
+
+    <nav class="navbar">
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#nosotros">Nosotros</a>
+
+        <a href="#productos">Productos</a>
+
+        <a href="#videos">Videos</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+    <div class="menu-toggle" id="menu-toggle">
+
+    <i class="fas fa-bars"></i>
+
+    </div>
+
+</header>
+
+<!-- ========================================= -->
 <!-- HERO -->
-<header class="hero">
+<!-- ========================================= -->
+
+<section id="inicio" class="hero">
 
     <div class="hero-overlay"></div>
 
@@ -23,362 +68,319 @@
 
         <h1>Abili</h1>
 
+        <div class="hero-line"></div>
+
         <h2>Tejidos a Crochet</h2>
 
-        <p class="slogan">
-            Detalles hechos a mano con amor, creatividad y dedicación.
+        <p>
+            Con amor en cada puntada
         </p>
 
-        <!-- BOTONES PRINCIPALES -->
-        <div class="hero-buttons">
+        <a href="#productos"
+            class="btn-principal">
 
-            <a href="#productos" class="btn">
-                Ver Catálogo
-            </a>
+            Ver productos
 
-            <a href="#contacto" class="btn-secundario">
-                Contactar
-            </a>
+        </a>
+
+    </div>
+
+    <div class="wave">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320">
+
+            <path fill="#fff9f7"
+                fill-opacity="1"
+                d="M0,224L80,229.3C160,235,320,245,480,224C640,203,800,149,960,149.3C1120,149,1280,203,1360,229.3L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+
+            </path>
+
+        </svg>
+
+    </div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- SOBRE NOSOTROS -->
+<!-- ========================================= -->
+
+<section id="nosotros" class="nosotros">
+
+    <div class="nosotros-container">
+
+        <div class="nosotros-img">
+
+            <img src="img/Inicio.jpeg"
+                alt="Logo de Abili">
 
         </div>
 
-        <!-- ACCESOS RÁPIDOS -->
-        <div class="categorias-hero">
+        <div class="nosotros-texto">
 
-            <a href="#flores"> Flores Eternas</a>
+            <h2>Sobre Abili</h2>
 
-            <a href="#amigurumis"> Amigurumis</a>
+            <p>
+                En Abili creamos productos artesanales tejidos a crochet
+                con dedicación y amor.
+            </p>
 
-            <a href="#ponchos-ramo"> Ponchos</a>
+            <p>
+                Cada pieza es elaborada cuidadosamente para transmitir
+                creatividad, elegancia y emociones especiales.
+            </p>
 
-            <a href="#llaveros"> Llaveros</a>
+            <p>
+                Nuestro objetivo es convertir cada detalle en un recuerdo
+                único y eterno.
+            </p>
 
         </div>
 
     </div>
 
-</header>
+</section>
 
-<!-- NAVBAR -->
-<nav class="navbar">
+<!-- ========================================= -->
+<!-- BENEFICIOS -->
+<!-- ========================================= -->
 
-    <a href="#nosotros">Nosotros</a>
+<section class="beneficios">
 
-    <a href="#productos">Productos</a>
+    <div class="titulo-seccion">
 
-    <a href="#coleccion">Video</a>
-
-    <a href="#redes">Redes Sociales</a>
-
-    <a href="#contacto">Contacto</a>
-
-</nav>
-<!-- SOBRE NOSOTROS -->
-<section id="nosotros" class="section">
-
-    <h2>Sobre Nosotros</h2>
-
-    <div class="contenido">
-
-        <img src="img/Logo.png" alt="Logo de Abili tejidos a crochet">
+        <h2>¿Por qué elegir Abili?</h2>
 
         <p>
-            En Abili creamos productos artesanales tejidos a crochet
-            con dedicación y amor. Cada pieza es única y está diseñada
-            para transmitir calidez, creatividad y elegancia.
+            Cada creación está elaborada cuidadosamente
+            para transmitir emociones y originalidad.
         </p>
 
     </div>
 
+    <div class="beneficios-grid">
+
+        <div class="beneficio-card">
+
+            <div class="beneficio-icono">🧵</div>
+
+            <h3>100% Artesanal</h3>
+
+            <p>
+                Cada pieza es tejida completamente a mano.
+            </p>
+
+        </div>
+
+        <div class="beneficio-card">
+
+            <div class="beneficio-icono">🎁</div>
+
+            <h3>Detalles Únicos</h3>
+
+            <p>
+                Diseños ideales para regalos especiales.
+            </p>
+
+        </div>
+
+        <div class="beneficio-card">
+
+            <div class="beneficio-icono">🌸</div>
+
+            <h3>Diseños Personalizados</h3>
+
+            <p>
+                Creamos productos según tu estilo favorito.
+            </p>
+
+        </div>
+
+        <div class="beneficio-card">
+
+            <div class="beneficio-icono">💖</div>
+
+            <h3>Hecho con Amor</h3>
+
+            <p>
+                Más que tejidos, creamos emociones.
+            </p>
+
+        </div>
+
+    </div>
+
 </section>
 
+<!-- ========================================= -->
 <!-- PRODUCTOS -->
-<section id="productos" class="productos">
-    
-    <h2>Nuestros Productos</h2>
+<!-- ========================================= -->
 
-    <div class="cards">
+<section id="productos" class="productos">
+
+    <div class="titulo-seccion">
+
+        <h2>Nuestros Productos</h2>
+
+        <p>
+            Diseños únicos tejidos a mano especialmente para ti.
+        </p>
+
+    </div>
+
+    <div class="cards-productos">
 
         <!-- FLORES -->
-        <a href="#flores" class="card">
+        <div class="producto-card">
 
-            <div class="icono">🌹</div>
+            <img src="img/R1.jpeg"
+                alt="Flores eternas">
 
-            <h3>Flores Eternas</h3>
+            <div class="producto-info">
 
-            <p>
-                Ramos y flores tejidas a mano que conservan su belleza para siempre.
-            </p>
+                <h3>Flores Eternas</h3>
 
-        </a>
+                <p>
+                    Ramos que conservan
+                    su belleza para siempre.
+                </p>
+
+                <span class="precio">
+                    Desde $8
+                </span>
+
+            </div>
+
+        </div>
 
         <!-- AMIGURUMIS -->
-        <a href="#amigurumis" class="card">
+        <div class="producto-card">
 
+            <img src="img/A2.jpeg"
+                alt="Amigurumis">
 
-            <div class="icono">🧸</div>
+            <div class="producto-info">
 
-            <h3>Amigurumis</h3>
+                <h3>Amigurumis</h3>
 
-            <p>
-                Muñecos personalizados elaborados artesanalmente.
-            </p>
+                <p>
+                    Personajes tejidos llenos
+                    de ternura y creatividad.
+                </p>
 
-        </a>
+                <span class="precio">
+                    Desde $3
+                </span>
+
+            </div>
+
+        </div>
 
         <!-- PONCHOS -->
-        <a href="#ponchos-ramo" class="card">
+        <div class="producto-card">
 
+            <img src="img/P3.jpeg"
+                alt="Ponchos">
 
-            <div class="icono">🌻</div>
+            <div class="producto-info">
 
-            <h3>Ponchos Tejidos</h3>
+                <h3>Ponchos</h3>
 
-            <p>
-                Diseños cómodos, elegantes y artesanales.
-            </p>
+                <p>
+                    Diseños artesanales
+                    elegantes y personalizados.
+                </p>
 
-        </a>
+                <span class="precio">
+                    Desde $35
+                </span>
+
+            </div>
+
+        </div>
 
         <!-- LLAVEROS -->
-        <a href="#llaveros" class="card">
+        <div class="producto-card">
 
+            <img src="img/L2.jpeg"
+                alt="Llaveros">
 
-            <div class="icono">🔑</div>
+            <div class="producto-info">
 
-            <h3>Llaveros</h3>
+                <h3>Llaveros</h3>
 
-            <p>
-                Accesorios tejidos ideales para regalos personalizados.
-            </p>
+                <p>
+                    Accesorios tejidos ideales
+                    para regalar y coleccionar.
+                </p>
 
-        </a>
+                <span class="precio">
+                    Desde $1.50
+                </span>
+
+            </div>
+
+        </div>
 
     </div>
 
 </section>
 
-<!-- FLORES -->
-<section id="flores" class="galeria">
+<!-- ========================================= -->
+<!-- VIDEOS -->
+<!-- ========================================= -->
 
-    <h2>Catálogo de Flores Eternas</h2>
+<section id="videos" class="videos-section">
 
-    <div class="galeria-contenedor">
+    <div class="titulo-seccion">
 
-        <img src="img/R2.jpeg" alt="Ramo 3 rosas">
-        <img src="img/R1.jpeg" alt="Ramo 1 girasol, 1 tulipán y 1 rosa">
-        <img src="img/R3.jpeg" alt="Ramo girasol">
-        <img src="img/R4.jpeg" alt="Ramo 7 rosas">
+        <h2>Historias Tejidas con Amor</h2>
 
-    </div>
-
-    <table class="tabla-productos">
-
-        <tr>
-            <th>Ramo</th>
-            <th>Descripción</th>
-            <th>Precio</th>
-        </tr>
-
-        <tr>
-            <td>Ramo #1</td>
-            <td>3 rosas o 3 tulipanes</td>
-            <td>$8</td>
-        </tr>
-
-        <tr>
-            <td>Ramo #2</td>
-            <td>1 girasol, 1 tulipán y 1 rosa</td>
-            <td>$10</td>
-        </tr>
-
-        <tr>
-            <td>Ramo #3</td>
-            <td>3 girasoles y 1 tulipán</td>
-            <td>$15</td>
-        </tr>
-
-        <tr>
-            <td>Ramo #4</td>
-            <td>7 rosas con decoración floral</td>
-            <td>$20</td>
-        </tr>
-
-    </table>
-
-</section>
-
-<!-- AMIGURUMIS -->
-<section id="amigurumis" class="galeria">
-
-    <h2>Catálogo de Amigurumis</h2>
-
-    <div class="galeria-contenedor">
-
-        <img src="img/A1.jpeg" alt="Amigurumi snoopy ">
-        <img src="img/A2.jpeg" alt="Amigurumi chimuelo ">
-        <img src="img/A3.jpeg" alt="Amigurumi lucifer ">
-
-    </div>
-<table class="tabla-productos">
-
-        <tr>
-            <th>Modelo</th>
-            <th>Precio</th>
-        </tr>
-
-        <tr>
-            <td>Snoopy</td>
-            <td>$3</td>
-        </tr>
-
-        <tr>
-            <td>Chimuelo</td>
-            <td>$7</td>
-        </tr>
-
-        <tr>
-            <td>Lucifer/lana chenille(suave)</td>
-            <td>$40</td>
-        </tr>
-
-    </table>
-
-</section>
-
-<!-- PONCHOS -->
-<section id="ponchos-ramo" class="galeria">
-
-    <h2>Catálogo de PonchosRamo</h2>
-
-    <div class="galeria-contenedor">
-
-        <img src="img/P1.jpeg" alt="Poncho Presentación">
-        <img src="img/P2.jpeg" alt="Poncho Modelo 1">
-        <img src="img/P3.jpeg" alt="Poncho Modelo 2">
+        <p>
+            Descubre más de nuestros productos.
+        </p>
 
     </div>
 
-    <table class="tabla-productos">
+    <div class="videos-grid">
 
-        <tr>
-            <th>Modelo</th>
-            <th>Talla</th>
-            <th>Precio</th>
-        </tr>
-
-        <tr>
-            <td>22 Girasoles</td>
-            <td>S</td>
-            <td>$35</td>
-        </tr>
-
-        <tr>
-            <td>22 Girasoles</td>
-            <td>M</td>
-            <td>$40</td>
-        </tr>
-
-        <tr>
-            <td>22 Girasoles</td>
-            <td>L</td>
-            <td>$45</td>
-        </tr>
-
-        <tr>
-            <td>45 Girasoles</td>
-            <td>S</td>
-            <td>$50</td>
-        </tr>
-
-        <tr>
-            <td>45 Girasoles</td>
-            <td>M</td>
-            <td>$55</td>
-        </tr>
-
-        <tr>
-            <td>45 Girasoles</td>
-            <td>L</td>
-            <td>$60</td>
-        </tr>
-
-    </table>
-
-</section>
-
-<!-- LLAVEROS -->
-<section id="llaveros" class="galeria">
-
-    <h2>Catálogo de Llaveros</h2>
-
-    <div class="galeria-contenedor">
-
-        <img src="img/L1.jpeg" alt="Llavero pollitos ">
-        <img src="img/L2.jpeg" alt="Llavero CapiSpiderman ">
-        <img src="img/L3.jpeg" alt="Llavero TuliCereza ">
-
-    </div>
-   <table class="tabla-productos">
-
-        <tr>
-            <th>Modelo</th>
-            <th>Precio unidad </th>
-        </tr>
-
-        <tr>
-            <td>Pollitos con sombrero</td>
-            <td>$2</td>
-        </tr>
-
-        <tr>
-            <td>CapiSpiderman</td>
-            <td>$3</td>
-        </tr>
-
-        <tr>
-            <td>TuliCereza</td>
-            <td>$1.5 </td>
-        </tr>
-
-    </table>
- 
-
-</section>
-<!-- MULTIMEDIA -->
-<section id="coleccion" class="multimedia-section">
-
-
-    <h2>Colección Abili</h2>
-
-    <p>
-        Descubre algunos de nuestros diseños tejidos a crochet y contenido exclusivo de nuestra comunidad.
-    </p>
-
-    <div class="multimedia-contenedor">
-
-        <!-- VIDEO -->
-        <div class="multimedia-item">
+        <div class="video-card">
 
             <video controls>
 
-                <source src="video/V1.mp4" type="video/mp4">
+                <source src="video/V1.mp4"
+                    type="video/mp4">
 
             </video>
 
+            <h3>Flores Eternas</h3>
+
         </div>
 
-        <!-- INSTAGRAM -->
-        <div class="multimedia-item">
+        <div class="video-card">
 
-            <iframe
-                src="https://www.instagram.com/reel/DYLfAtmpWHM/embed"
-                width="350"
-                height="520"
-                frameborder="0"
-                scrolling="no"
-                allowtransparency="true">
-            </iframe>
+            <video controls>
+
+                <source src="video/V2.mp4"
+                    type="video/mp4">
+
+            </video>
+
+            <h3>Amigurumis</h3>
+
+        </div>
+
+        <div class="video-card">
+
+            <video controls>
+
+                <source src="video/V3.mp4"
+                    type="video/mp4">
+
+            </video>
+
+            <h3>Ponchos Artesanales</h3>
 
         </div>
 
@@ -386,77 +388,164 @@
 
 </section>
 
-<!-- REDES SOCIALES -->
-<section id="redes" class="section redes-sociales">
-
-    <h2>Redes Sociales</h2>
-
-    <div class="redes">
-
-        <!-- WHATSAPP -->
-        <a href="https://wa.me/593983717648"
-        target="_blank"
-        class="whatsapp">
-
-            <i class="fab fa-whatsapp"></i>
-
-            Escríbenos por WhatsApp
-
-        </a>
-
-        <!-- INSTAGRAM -->
-        <a href="https://www.instagram.com/Abili_tejidos/"
-        target="_blank"
-        class="instagram">
-
-            <i class="fab fa-instagram"></i>
-
-            Síguenos en Instagram
-
-        </a>
-
-    </div>
-
-</section>
+<!-- ========================================= -->
 <!-- CONTACTO -->
-<section id="contacto" class="section contacto">
+<!-- ========================================= -->
 
-    <h2>Contáctanos</h2>
-    
-    <form action="guardar.php" method="POST">
+<section id="contacto" class="contacto">
 
-    <input
-    type="text"
-    name="nombre"
-    placeholder="Nombre completo"
-    required>
+    <div class="titulo-seccion">
 
-    <input
-    type="email"
-    name="correo"
-    placeholder="Correo electrónico"
-    required>
+        <h2>Contáctanos</h2>
 
-    <textarea
-    name="mensaje"
-    placeholder="Escribe tu mensaje"
-    required></textarea>
+        <p>
+            ¿Deseas un diseño personalizado?
+            Escríbenos y estaremos felices de ayudarte.
+        </p>
 
-    <button type="submit">
-        Enviar mensaje
-    </button>
+    </div>
 
-</form>
+    <div class="contacto-container">
+
+        <div class="contacto-info">
+
+            <h3>Información de contacto</h3>
+
+            <p>
+                Elaboramos tejidos artesanales personalizados.
+            </p>
+
+            <div class="contacto-item">
+
+                <i class="fab fa-whatsapp"></i>
+
+                <span>+593 98 371 7648</span>
+
+            </div>
+
+            <div class="contacto-item">
+
+                <i class="fab fa-instagram"></i>
+
+                <span>@Abili_tejidos</span>
+
+            </div>
+
+        </div>
+
+        <form action="guardar.php"
+            method="POST"
+            class="formulario">
+
+            <input type="text"
+                name="nombre"
+                placeholder="Nombre completo"
+                required>
+
+            <input type="email"
+                name="correo"
+                placeholder="Correo electrónico"
+                required>
+
+            <textarea name="mensaje"
+                placeholder="Escribe tu mensaje"
+                required></textarea>
+
+            <button type="submit">
+
+                Enviar mensaje
+
+            </button>
+
+        </form>
+
+    </div>
 
 </section>
 
+<!-- ========================================= -->
 <!-- FOOTER -->
-<footer>
+<!-- ========================================= -->
 
-    <p>© 2026 Abili | Tejidos a Crochet</p>
+<footer class="footer">
+
+    <div class="footer-contenido">
+
+        <div class="footer-brand">
+
+            <h2>Abili</h2>
+
+            <p>
+                Tejidos a crochet hechos a mano con amor.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Enlaces</h3>
+
+            <a href="#inicio">Inicio</a>
+
+            <a href="#nosotros">Nosotros</a>
+
+            <a href="#productos">Productos</a>
+
+            <a href="#videos">Videos</a>
+
+            <a href="#contacto">Contacto</a>
+
+        </div>
+
+        <div class="footer-redes-container">
+
+            <h3>Redes Sociales</h3>
+
+            <div class="footer-redes">
+
+                <a href="https://wa.me/593983717648"
+                    target="_blank">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                </a>
+
+                <a href="https://www.instagram.com/Abili_tejidos/"
+                    target="_blank">
+
+                    <i class="fab fa-instagram"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-copy">
+
+        <p>
+            © 2026 Abili | Todos los derechos reservados
+        </p>
+
+    </div>
 
 </footer>
 
 </body>
+<script>
+
+const menuToggle = document.getElementById("menu-toggle");
+
+const navbar = document.querySelector(".navbar");
+
+menuToggle.addEventListener("click", () => {
+
+    navbar.classList.toggle("active");
+
+});
+
+</script>
 
 </html>
